@@ -1,0 +1,127 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: rgb(2,0,36);
+    background: -moz-linear-gradient(4deg, rgba(2,0,36,1) 0%, rgba(5,5,77,1) 15%, rgba(0,212,255,1) 100%);
+    background: -webkit-linear-gradient(4deg, rgba(2,0,36,1) 0%, rgba(5,5,77,1) 15%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(4deg, rgba(2,0,36,1) 0%, rgba(5,5,77,1) 15%, rgba(0,212,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);
+}
+
+.Icone{
+    width: 2px;
+    justify-items: flex-end;
+    margin: 0;
+    padding: 2px;
+}
+.Icone i{
+    color: rgb(17, 0, 255);
+    font-size: 60px;
+    transition: color 0.50s ease;
+}
+.Icone:hover i{
+    color: aqua;
+    transition: color 0.50s ease;
+}
+
+.caixa{
+    position: fixed;
+    padding:20px;
+    max-width: 50%;
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+    border: solid;
+    border-color: rgb(19, 122, 122);
+    background-color: rgba(0, 0, 0, 0.644);
+    transition: background-color 0.50s ease;
+    bottom: 0;
+    left: 0;
+}
+
+.Resumo{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffd000;
+    max-height: 40%;
+    max-width: 100%;
+    width: 870px;
+    height: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: rgb(44, 44, 44);
+    border-radius: 50px;
+    font-family: Arial, Helvetica, sans-serif,bold;
+    margin: 1px;
+}
+.caixa:hover{
+background-color: rgb(22, 167, 167);
+transition: background-color 0.50s ease;
+cursor: pointer;
+}
+.caixa strong{
+    color: chocolate;   
+}
+.caixa  p{
+    font-size: 19px;
+    color: aliceblue;
+}
+
+.Projetos{
+    position: fixed;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 19px;
+    border: solid;
+    border-color: rgb(19, 122, 122);
+    bottom: 0;
+    padding: 10px;
+    width: 400px;
+    max-width: 65%;
+    background-color: rgba(0, 0, 0, 0.644);
+    left: 35%;
+    color: white;
+    transition: color 0.50s ease;
+    margin: 5px;
+}
+.Projetos strong{
+    color: chocolate;
+}
+
+.Projetos:hover{
+    background-color: rgb(22, 167, 167);
+    transition: background-color 0.50s ease;
+    cursor: pointer;
+}
+
+.Info{
+    position: fixed;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 19px;
+    border: solid;
+    border-color: rgb(19, 122, 122);
+    bottom: 0;
+    padding: 10px;
+    width: 400px;
+    max-width: 65%;
+    background-color: rgba(0, 0, 0, 0.644);
+    left: 68%;
+    color: white;
+    transition: color 0.50s ease;
+    margin: 5px;
+}
+.Info:hover{
+    background-color: rgb(22, 167, 167);
+    transition: background-color 0.50s ease;
+    cursor: pointer;
+}
+
+
